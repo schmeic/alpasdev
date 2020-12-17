@@ -8,7 +8,6 @@ import dev.alpas.encryption.EncryptionServiceProvider
 import dev.alpas.hashing.HashServiceProvider
 import dev.alpas.http.HttpKernel
 import dev.alpas.logging.LoggerServiceProvider
-import dev.alpas.ozone.OzoneServiceProvider
 import dev.alpas.queue.QueueServiceProvider
 import dev.alpas.routing.RouteServiceProvider
 import dev.alpas.session.SessionServiceProvider
@@ -25,7 +24,6 @@ class HttpKernel : HttpKernel() {
             SessionServiceProvider::class,
             RouteServiceProvider::class,
             ViewServiceProvider::class,
-            OzoneServiceProvider::class,
             QueueServiceProvider::class,
             JedisServiceProvider::class,
             DocumentationServiceProvider::class

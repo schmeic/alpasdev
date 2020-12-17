@@ -300,7 +300,7 @@ class TaskController : Controller() {
         Tasks.create() {
             // Get the name of the task that was passed
             val taskName = call.stringParam("newTask")
-            it.name to taskname
+            it.name to taskName
         }
         
         // If a new todo task has successfully been created and saved to the database,

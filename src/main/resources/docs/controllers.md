@@ -61,4 +61,4 @@ fun Router.addRoutes() {
 
 </span>
 
-All the controller's route handler methods receive an `HttpContext` object as an argument.
+All the controller's route handler methods receive an `HttpCall` object as an argument.
